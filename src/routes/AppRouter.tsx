@@ -2,6 +2,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import {
   ComisionDirectiva,
   ComoAfiliarse,
+  Contacto,
   Inicio,
   Institucional,
 } from "../containers";
@@ -19,6 +20,7 @@ const AppRouter: React.FC<object> = () => {
         />
         <Route path={ROUTE.COMO_AFILIARSE} element={<ComoAfiliarse />} />
         <Route path={ROUTE.INSTITUCIONAL} element={<Institucional />} />
+        <Route path={ROUTE.CONTACTO} element={<Contacto />} />
         <Route path="*" element={<Navigate to={"/"} />} />
       </Route>
     </Routes>

@@ -1,10 +1,16 @@
 import { BrowserRouter } from "react-router-dom";
 import { AppRouter } from "./routes";
+import { ThemeConfig } from "./config";
+import { Container } from "@mui/material";
 function App() {
   return (
-    <BrowserRouter>
-      <AppRouter />
-    </BrowserRouter>
+    <ThemeConfig>
+      <BrowserRouter>
+        <Container maxWidth="xl">
+          <AppRouter />
+        </Container>
+      </BrowserRouter>
+    </ThemeConfig>
   );
 }
 
