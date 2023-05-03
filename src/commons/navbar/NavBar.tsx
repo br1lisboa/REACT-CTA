@@ -35,7 +35,7 @@ const NavBar: React.FC<object> = () => {
   const { formatteDate } = NavBarHook();
 
   return (
-    <AppBar position="fixed" color="transparent" sx={{ height: "15vh" }}>
+    <AppBar position="fixed" color="transparent" sx={{ height: "10vh" }}>
       <Box className={classes.navBarTop}>
         <Grid container>
           <Grid item xs={10} alignSelf="center">

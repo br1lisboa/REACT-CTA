@@ -17,7 +17,15 @@ export const LinksNavBar = [
 ];
 
 export const IconsNavBar = [
-  { icon: { faceSVG }, alt: "facebook", link: "http://facebook.com" },
-  { icon: { igSVG }, alt: "instagram", link: "http://instagram.com" },
+  {
+    icon: { faceSVG },
+    alt: "facebook",
+    link: "https://www.facebook.com/ctaachaco",
+  },
+  {
+    icon: { igSVG },
+    alt: "instagram",
+    link: "https://www.instagram.com/cta.autonoma.chaco/",
+  },
   { icon: { ytbSVG }, alt: "youtube", link: "http://youtube.com" },
 ];

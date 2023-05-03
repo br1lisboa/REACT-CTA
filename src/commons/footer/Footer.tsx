@@ -27,8 +27,10 @@ const useStyles = makeStyles(() => ({
   },
   data: {
     display: "flex",
+    justifyContent: "space-around",
     flexDirection: "column",
     width: "50%",
+    height: "100%",
   },
   svgData: {
     width: "15px",
