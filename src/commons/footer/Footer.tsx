@@ -38,15 +38,15 @@ const useStyles = makeStyles(() => ({
   dataText: {
     display: "flex",
     alignItems: "center",
+    marginLeft: "10%",
   },
   svgCTA: {
     width: "50%",
   },
+  colorData: {
+    color: "whitesmoke",
+  },
 }));
-
-/* type FooterProps = {
-  text: string;
-}; */
 
 const Footer: React.FC<object> = () => {
   const classes = useStyles();
@@ -73,7 +73,9 @@ const Footer: React.FC<object> = () => {
                 src={data.icon.gpsSVG || data.icon.telSVG || data.icon.emailSVG}
                 alt={data.data}
               />
-              <Typography>{data.data}</Typography>
+              <Typography className={classes.colorData} variant="caption">
+                {data.data}
+              </Typography>
             </Box>
           ))}
         </Box>
