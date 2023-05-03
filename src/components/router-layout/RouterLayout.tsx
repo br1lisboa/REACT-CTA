@@ -1,11 +1,12 @@
 import { Outlet } from "react-router-dom";
-import { NavBar } from "../../commons";
+import { NavBar, Footer } from "../../commons";
 
 const RouterLayout: React.FC<object> = () => {
   return (
     <>
       <NavBar />
       <Outlet />
+      <Footer />
     </>
   );
 };
