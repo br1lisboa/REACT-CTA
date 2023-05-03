@@ -39,6 +39,7 @@ const useStyles = makeStyles(() => ({
     display: "flex",
     alignItems: "center",
     marginLeft: "10%",
+    padding: "0.7%",
   },
   svgCTA: {
     width: "50%",
