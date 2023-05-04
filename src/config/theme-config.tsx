@@ -9,6 +9,7 @@ export enum themePallete {
   FONT_GLOBAL = "PT Sans",
   PADDING_LEFT = "20%",
   PADDING_RIGHT = "20%",
+  PADDING_CONTAINER = "11vh 11% 16vh 11%",
 }
 
 const theme = createTheme({
