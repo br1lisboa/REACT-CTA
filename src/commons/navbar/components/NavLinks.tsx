@@ -8,7 +8,7 @@ const NavLinks: React.FC<object> = () => {
   return (
     <>
       {LinksNavBar.map((link) => (
-        <Link>
+        <Link key={link.text}>
           <NavLink
             className={styles.link}
             key={link.text}
