@@ -15,17 +15,19 @@ const useStyles = makeStyles(() => ({
 const Inicio = () => {
   const classes = useStyles();
   return (
-    <Grid container className={classes.container}>
-      <Grid item xs={12}>
-        <CustomBanner svg={bannerSVG.img.neriSVG} alt={bannerSVG.alt} />
+    <>
+      <Grid container className={classes.container}>
+        <Grid item xs={12}>
+          <CustomBanner svg={bannerSVG.img.neriSVG} alt={bannerSVG.alt} />
+        </Grid>
+        <Grid item xs={12}>
+          <TitleDivider text={"ÚLTIMAS NOTICIAS"} />
+        </Grid>
+        <Grid container spacing={2} pt={3}>
+          <Cards />
+        </Grid>
       </Grid>
-      <Grid item xs={12}>
-        <TitleDivider text={"ÚLTIMAS NOTICIAS"} />
-      </Grid>
-      <Grid container spacing={2} pt={3}>
-        <Cards />
-      </Grid>
-    </Grid>
+    </>
   );
 };
 export default Inicio;

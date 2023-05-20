@@ -5,11 +5,11 @@ export enum themePallete {
   BG = "#FCF9F9",
   PRIMARY = "#232323",
   SECONDARY = "#D9D9D9",
-  TEXT_COLOR = "#787C7A",
-  FONT_GLOBAL = "PT Sans",
+  TEXT_COLOR = "#2e2926",
+  FONT_GLOBAL = "Poppins",
   PADDING_LEFT = "20%",
   PADDING_RIGHT = "20%",
-  PADDING_CONTAINER = "11vh 11% 0.5% 11%",
+  PADDING_CONTAINER = "13vh 11% 17vh 11%",
   BTN_COLOR = "#029633",
 }
 
@@ -22,7 +22,7 @@ const theme = createTheme({
   },
   typography: {
     fontFamily: themePallete.FONT_GLOBAL,
-    fontSize: 14,
+    fontSize: 12,
   },
   components: {
     MuiLink: {

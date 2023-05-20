@@ -33,7 +33,7 @@ const Contacto: React.FC<object> = () => {
           <Grid item xs={12} mt={4} ml={2}>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28321.803986685693!2d-59.00749231227868!3d-27.462238245150388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450d71280d3c65%3A0x3de6e3e5a2f7d1a1!2sCTA%20Aut%C3%B3noma%20Chaco!5e0!3m2!1ses-419!2sar!4v1684235734666!5m2!1ses-419!2sar"
-              width="500"
+              width="450"
               height="400"
               loading="lazy"
             ></iframe>
