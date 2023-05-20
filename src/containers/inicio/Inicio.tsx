@@ -23,7 +23,7 @@ const Inicio = () => {
         <Grid item xs={12}>
           <TitleDivider text={"ÚLTIMAS NOTICIAS"} />
         </Grid>
-        <Grid container spacing={2} pt={3}>
+        <Grid container spacing={2}>
           <Cards />
         </Grid>
       </Grid>
