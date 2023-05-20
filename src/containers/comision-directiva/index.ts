@@ -1,1 +1,5 @@
-export { default as ComisionDirectiva } from "./ComisionDirectiva";
+import React from "react";
+
+export const ComisionDirectiva = React.lazy(
+  () => import("./ComisionDirectiva")
+);

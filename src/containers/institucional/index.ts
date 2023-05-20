@@ -1,1 +1,3 @@
-export { default as Institucional } from "./Institucional";
+import React from "react";
+
+export const Institucional = React.lazy(() => import("./Institucional"));

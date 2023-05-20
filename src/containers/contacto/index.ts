@@ -1,1 +1,3 @@
-export { default as Contacto } from "./Contacto";
+import React from "react";
+
+export const Contacto = React.lazy(() => import("./Contacto"));
