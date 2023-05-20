@@ -1,4 +1,4 @@
-import { AppBar, Box, Grid } from "@mui/material";
+import { AppBar, Box, Grid, Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import { themePallete } from "../../config/theme-config";
 import { NavBarHook } from ".";
@@ -39,7 +39,9 @@ const NavBar: React.FC<object> = () => {
       <Box className={classes.navBarTop}>
         <Grid container>
           <Grid item xs={10} alignSelf="center">
-            {formatteDate.toUpperCase()}
+            <Typography sx={{ color: "grey" }}>
+              {formatteDate.toUpperCase()}
+            </Typography>
           </Grid>
           <Grid item xs={2}>
             <IconsSocialNet />
