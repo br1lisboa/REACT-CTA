@@ -12,7 +12,12 @@ const useStyles = makeStyles({
 const Institucional = () => {
   const classes = useStyles();
   return (
-    <Grid container className={classes.container}>
+    <Grid
+      container
+      className={classes.container}
+      spacing={2}
+      justifyContent={"center"}
+    >
       <Grid item xs={12}>
         <CustomBanner
           svg={bannerSVG.img.institucionalSVG}
@@ -23,7 +28,7 @@ const Institucional = () => {
         <TitleDivider text={"QUIENES SOMOS - INSTITUCIONAL"} />
       </Grid>
       <Grid item xs={12}>
-        <Typography p={2} align={"justify"}>
+        <Typography align={"justify"}>
           Somos una central de trabajadores y trabajadoras, no una confederación
           de organizaciones sindicales. Propiciamos la afiliación directa de
           cada trabajador a esta experiencia colectiva de nuevo tipo. Ello
