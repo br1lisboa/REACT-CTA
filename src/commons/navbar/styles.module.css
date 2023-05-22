@@ -5,3 +5,8 @@
 .link:hover {
   color: #029633;
 }
+.linkActive {
+  color: #029633;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+}

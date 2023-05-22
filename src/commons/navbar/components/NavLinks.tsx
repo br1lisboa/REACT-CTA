@@ -10,7 +10,9 @@ const NavLinks: React.FC<object> = () => {
       {LinksNavBar.map((link) => (
         <Link key={link.text}>
           <NavLink
-            className={styles.link}
+            className={({ isActive }) =>
+              isActive ? styles.linkActive : styles.link
+            }
             key={link.text}
             to={link.link}
             target={link?.target}
